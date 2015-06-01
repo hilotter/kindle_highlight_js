@@ -1,6 +1,15 @@
 (function(d) {
   "use strict";
 
+  // firefox
+  var temp = document.createElement("div");
+  if (temp.innerText == undefined) {
+    Object.defineProperty(HTMLElement.prototype, "innerText", {
+      get: function()  { return this.textContent },
+      set: function(v) { this.textContent = v; }
+    });
+  }
+
   var title = d.querySelector('.title').innerText,
       author = d.querySelector('.author').innerText,
       highlight_tags = d.querySelectorAll('.highlight'),
