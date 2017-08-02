@@ -5,4 +5,4 @@ I confirmed only Chrome browser.
 
 [Get Bookmarklet](http://hilotter.github.io/kindle_highlight_js/)
 
-refs. [[kindle]読書メモ(Highlight)をEvernoteにいい感じに保存できるブックマークレットをつくった](http://blog.hello-world.jp.net/javascript/2564/)
+refs. [kindle highlight jsを更新しました – hello-world.jp.net](https://blog.hello-world.jp.net/kindle/5015/)
